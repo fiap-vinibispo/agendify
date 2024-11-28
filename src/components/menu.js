@@ -14,6 +14,7 @@ window.addEventListener("scroll", () => {
 
   links.forEach(item => {
     item.classList.remove(".active")
+    console.log(currentSection)
     if (item.getAttribute("href") == `#${currentSection}`) item.classList.add("active")
   })
 })
