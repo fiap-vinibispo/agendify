@@ -1,0 +1,51 @@
+header.menu {
+  background-image: -moz-linear-gradient(to right, var(--purple-primary), var(--pink-primary)); 
+  background-image: -webkit-linear-gradient(to right, var(--purple-primary), var(--pink-primary)); 
+  background-image: linear-gradient(to right, var(--purple-primary), var(--pink-primary));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 115px;
+  padding-left: 24px;
+  padding-right: 24px;
+  z-index: 999;
+}
+
+header.menu .logo {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+header.menu a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  transition: color 1s;
+}
+
+header.menu nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+header.menu nav ul li a {
+  font-size: 32px;
+}
+
+header.menu nav ul li a.active {
+  color: var(--purple-secondary);
+}
+
+header.menu a:hover {
+  color: var(--purple-secondary);
+}
+
+

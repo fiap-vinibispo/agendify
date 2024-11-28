@@ -1,0 +1,95 @@
+section#home {
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section#home .hero {
+  width: 100%;
+  max-width: 1114px;
+}
+
+section#home .hero .flex {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+section#home .hero h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+section#home h2 {
+  padding-top: 12px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+section#home .hero span.dot {
+  color: var(--pink-secondary);
+}
+
+section#home .divider {
+  margin-top: 24px;
+  width: 100%;
+  background: linear-gradient(to right, var(--purple-divider), var(--pink-divider));
+  height: 8px;
+}
+
+section#home article {
+  margin-top: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section#home article .title {
+  max-width: 1470px;
+}
+
+section#home article .title h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--purple-secondary);
+}
+
+section#home article .title .gradient {
+  background-image: -moz-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
+  background-image: -webkit-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
+  background-image: linear-gradient(to right, var(--purple-divider), var(--pink-gradient-text));
+  background-clip: text;
+  color: transparent;
+}
+
+section#home article .simple-gallery {
+  margin-top: 125px;
+  width: 100%;
+  background: #000;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section#home article .simple-gallery .divider {
+  background: var(--white);
+  width: 423px;
+  align-self: center;
+  height: 2px;
+  margin: 0;
+}
+
+section#home article .simple-gallery .images {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
