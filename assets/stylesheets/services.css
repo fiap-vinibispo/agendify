@@ -11,6 +11,8 @@ section#services .title {
   max-width: 1538px;
   width: 1166px;
   display: flex;
+  padding-top: 48px;
+  padding-bottom: 24px;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;

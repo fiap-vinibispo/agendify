@@ -6,17 +6,16 @@ window.addEventListener("scroll", () => {
   let currentSection = ''
   
   sections.forEach(section => {
-    const sectionTop = section.offsetTop
+    const sectionTop = section.offsetTop + 115
     const sectionHeight = section.clientHeight
     if (window.scrollY >= sectionTop - sectionHeight / 2 && window.scrollY < sectionTop + sectionHeight / 2) {
       currentSection = section.getAttribute('id')
+      return
     } 
   })
 
   links.forEach(item => {
-    item.classList.remove(".active")
+    item.classList.remove("active")
+    if (item.getAttribute("href") == `#${currentSection}`) item.classList.add("active")
   })
-
-  const activeLink = document.querySelector(`header.menu nav ul li a[href="#${currentSection}"]`)
-  if (activeLink) activeLink.classList.add("active")
 })
