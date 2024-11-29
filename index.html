@@ -31,26 +31,24 @@
     <link rel="stylesheet" href="./assets/stylesheets/components/image-with-text.css">
     <link rel="stylesheet" href="./assets/stylesheets/home.css">
     <link rel="stylesheet" href="./assets/stylesheets/services.css">
+    <link rel="stylesheet" href="./assets/stylesheets/benefits.css">
     <script type="module" src="./src/main.js"></script>
   </head>
   <body>
-    <header class="menu">
+    <header role="banner" class="menu">
       <div class="logo">
         <img src="./assets/images/logo.svg" alt="Logo do Site Agendify">
         <a href="./index.html">Agendify</a>
       </div>
-      <nav>
+      <nav role="navigation" aria-label="Menu principal">
         <ul>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#advantages">Benefícios</a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+          <li><a href="#services" aria-label="Ir para os serviços">Serviços</a></li>
+          <li><a href="#advantages" aria-label="Ir para os benefícios">Benefícios</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main role="main">
       <section id="home">
         <div class="hero">
           <div class="flex">
@@ -84,24 +82,39 @@
           <div class="divider"></div>
         </div>
         <div class="cards">
-          <div class="card">
-            <img src="./assets/images/services/monitor-and-database.svg" alt="Purple Monitor and Database icon">
+          <div class="card" aria-label="Sistema integrado para agendamentos médicos sem necessidade de migração">
+            <img src="./assets/images/services/monitor-and-database.svg" alt="Ícone de monitor e banco de dados roxo">
             <span>Sistema integrado com as suas consultas e agendamentos sem necessidade de migração</span>
           </div>
-          <div class="card">
-            <img src="./assets/images/services/calendar.svg" alt="Purple Monitor and Database icon">
+          <div class="card" aria-label="Encaixe de pacientes de forma inteligente em filas de espera de consultas">
+            <img src="./assets/images/services/calendar.svg" alt="Ícone de calendário roxo">
             <span>Encaixe seus pacientes em filas de espera de consultas e exames de forma inteligente</span>
           </div>
-          <div class="card">
-            <img src="./assets/images/services/api.svg" alt="Purple Monitor and Database icon">
+          <div class="card" aria-label="API e plataforma web para otimizar o tempo e impulsionar o agendamento">
+            <img src="./assets/images/services/api.svg" alt="Ícone de API simbolizado por uma nuvem roxo">
             <span>Disponibilizamos API e plataforma web pra te impulsionar sem perda de tempo</span>
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section id="benefits">
+        <h2>Por que escolher a Agendify?</h2>
+        <div class="zebra-card">
+          <div class="divider"></div>
+          <span>Centenas de pacientes perdem agendamentos e consultas por indisponibilidade de horários e falta de visibilidade do tempo de tempo de espera e seu lugar na fila todos os anos</span>
+        </div>
+        <div class="zebra-card">
+          <div class="divider"></div>
+          <span>Nós automatizamos todo o processo de gerenciamento de desistências, analisando a fila em tempo real e priorizando pacientes com maior urgência, eliminando a necessidade de ligações repetitivas e garantindo rapidez no atendimento. </span>
+        </div>
+        <div class="zebra-card">
+          <div class="divider"></div>
+          <span>Os pacientes podem acompanhar a posição na fila diretamente pelo aplicativo ou site, recebendo notificações automáticas sobre vagas disponíveis, proporcionando uma experiência clara e confiável.</span>
+        </div>
+        <div class="zebra-card">
+          <div class="divider"></div>
+          <span>O sistema preenche vagas liberadas de forma eficiente, reduzindo o desperdício de horários e diminuindo a sobrecarga da equipe de atendimento, ao mesmo tempo que melhora os índices de satisfação dos seus pacientes.</span>
+        </div>
+      </section>
     </main>
 
     <footer></footer>

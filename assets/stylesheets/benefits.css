@@ -1,0 +1,45 @@
+section#benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  color: var(--purple-secondary);
+}
+
+section#benefits h2 {
+  font-size: 36px;
+}
+
+section#benefits .zebra-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 36px;
+  line-height: 150%;
+  padding: 40px;
+  gap: 62px;
+}
+
+section#benefits .zebra-card .divider {
+  height: 227px;
+  width: 4px;
+  background: #8030B7;
+}
+
+section#benefits .zebra-card span {
+  max-width: 1422px;
+}
+
+section#benefits .zebra-card:nth-of-type(2n + 1) {
+  background: linear-gradient(to right, var(--purple-primary), var(--pink-primary));
+  color: #fff;
+
+  & .divider {
+    background: #fff;
+  }
+}
+
+section#benefits .zebra-card:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}

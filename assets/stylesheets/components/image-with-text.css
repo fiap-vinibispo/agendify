@@ -35,7 +35,7 @@ image-with-text {
     color: var(--white);
     text-align: center;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     width: 473px;
     line-height: 125%;
     z-index: 2;

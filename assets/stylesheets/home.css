@@ -51,10 +51,12 @@ section#home article {
 }
 
 section#home article .title {
-  max-width: 1470px;
+  text-align: center;
+  padding: 10px;
 }
 
 section#home article .title h3 {
+  max-width: 1470px;
   font-size: 40px;
   font-weight: bold;
   color: var(--purple-secondary);

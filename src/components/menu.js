@@ -1,5 +1,6 @@
 const links = document.querySelectorAll("header.menu nav ul li a")
 const sections = document.querySelectorAll("section")
+let i = 0
 
 window.addEventListener("scroll", () => {
   let currentSection = ''
@@ -14,7 +15,8 @@ window.addEventListener("scroll", () => {
 
   links.forEach(item => {
     item.classList.remove(".active")
-    console.log(currentSection)
-    if (item.getAttribute("href") == `#${currentSection}`) item.classList.add("active")
   })
+
+  const activeLink = document.querySelector(`header.menu nav ul li a[href="#${currentSection}"]`)
+  if (activeLink) activeLink.classList.add("active")
 })

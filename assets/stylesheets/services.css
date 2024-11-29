@@ -1,19 +1,19 @@
 section#services {
   width: 100%;
-  height: 1920px;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 48px;
+  line-height: 200%;
 }
 
 section#services .title {
   max-width: 1538px;
+  width: 1166px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  line-height: 200%;
   height: 117px;
 }
 
@@ -46,7 +46,7 @@ section#services .cards .card {
   display: flex;
   gap: 36px;
   align-items: center;
-  font-size: 32px;
+  font-size: 24px;
   transition: transform 1s;
 }
 
