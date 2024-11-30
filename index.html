@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="./assets/stylesheets/services.css">
     <link rel="stylesheet" href="./assets/stylesheets/benefits.css">
     <link rel="stylesheet" href="./assets/stylesheets/crm.css">
+    <link rel="stylesheet" href="./assets/stylesheets/system.css">
+    <link rel="stylesheet" href="./assets/stylesheets/registration.css">
     <link rel="shortcut icon" href="./assets/images/logo.svg">
     <script type="module" src="./src/main.js"></script>
   </head>
@@ -152,11 +154,49 @@
           <div class="divider"></div>
 
           <div class="presentation-system">
-            <p>API Restful documentada com <span class="gradient">SWAGGER, para acelerar a sua integração</span></p>
+            <p>API Restful documentada com <span class="gradient">SWAGGER</span>, para acelerar a sua integração</p>
 
             <img src="./assets/images/crm/screen-swagger.png" alt="Tela do Swagger da Agendify">
           </div>
 
+        </div>
+      </section>
+      <section id="system">
+        <div class="title">
+          <h2>Adicione e gerencie os pacientes das suas filas com facilidade</h2>
+          <div class="divider"></div>
+        </div>
+        <img src="./assets/images/system/table-screen.png">
+        <iframe src="./system.html" frameborder="0"></iframe>
+      </section>
+      <section id="registration">
+        <image-with-text
+          src="assets/images/registration/appointment.png"
+          alt="Médica fazendo consulta em criança negra"
+          text="Além de todas essas vantagens, o Agendify notifica seus pacientes por SMS, Whatsapp e E-mail para deixá-los informados em todas as etapas do processo :)"
+        ></image-with-text>
+
+        <div class="form-container">
+          <h3>Junte-se a nós, e garanta mais transparência e agilidade para os seus pacientes.</h3>
+
+          <form novalidate>
+            <div class="inner-form">
+              <div class="input-group">
+                <label for="email">E-mail</label>
+                <input id="email" type="email">
+              </div>
+              <div class="input-group">
+                <label for="cnpj">CNPJ</label>
+                <input id="cnpj" type="text">
+              </div>
+              <div class="input-group">
+                <label for="phone">Número de telefone</label>
+                <input id="phone" type="tel">
+              </div>
+
+              <button type="submit">Cadastre-se</button>
+            </div>
+          </form>
         </div>
       </section>
     </main>

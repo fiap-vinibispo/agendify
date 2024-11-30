@@ -3,6 +3,7 @@ section#crm {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 section#crm .title {
   max-width: 1538px;
@@ -66,14 +67,6 @@ section#crm .login-system .divider {
   height: 600px;
   min-width: 1px;
   background: linear-gradient(to right, var(--purple-divider), var(--pink-divider));
-}
-
-section#crm .login-system .gradient {
-  background-image: -moz-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
-  background-image: -webkit-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
-  background-image: linear-gradient(to right, var(--purple-divider), var(--pink-gradient-text));
-  background-clip: text;
-  color: transparent;
 }
 
 section#crm .crms {

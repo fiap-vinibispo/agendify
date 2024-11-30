@@ -1,0 +1,41 @@
+section#system {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section#system .title {
+  max-width: 1538px;
+  width: 80%;
+}
+section#system .title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--purple-secondary);
+  line-height: 200%;
+}
+
+section#system .title span {
+  font-weight: bold;
+  font-size: 24px;
+  width: 100%;
+}
+
+section#system img {
+  max-width: 1547px;
+  height: auto;
+}
+
+@media (max-width: 1441px) {
+  section#system img {
+    max-width: 800px;
+    height: auto;
+  }
+}
+
+section#system .title .divider {
+  width: 100%;
+  background: linear-gradient(to right, var(--purple-divider), var(--pink-divider));
+  height: 5px;
+  margin-bottom: 24px;
+}
