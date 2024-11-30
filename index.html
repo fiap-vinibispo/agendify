@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="./assets/stylesheets/home.css">
     <link rel="stylesheet" href="./assets/stylesheets/services.css">
     <link rel="stylesheet" href="./assets/stylesheets/benefits.css">
-    <link rel="stylesheet" href="./assets/stylesheets/system.css">
+    <link rel="stylesheet" href="./assets/stylesheets/crm.css">
     <link rel="shortcut icon" href="./assets/images/logo.svg">
     <script type="module" src="./src/main.js"></script>
   </head>
@@ -44,9 +44,12 @@
       </div>
       <nav role="navigation" aria-label="Menu principal">
         <ul>
+          <li><a href="#home" aria-label="Ir para o início">Home</a></li>
           <li><a href="#services" aria-label="Ir para os serviços">Serviços</a></li>
           <li><a href="#benefits" aria-label="Ir para os benefícios">Benefícios</a></li>
-          <li><a href="#system" aria-label="Ir para o sistema">O Sistema</a></li>
+          <li><a href="#crm" aria-label="Ir para o CRM">CRM</a></li>
+          <li><a href="#system" aria-label="Ir para o Sistema">Sistema</a></li>
+          <li><a href="#registration" aria-label="Ir para o Cadastro">Cadastro</a></li>
         </ul>
       </nav>
     </header>
@@ -118,34 +121,40 @@
           <span>O sistema preenche vagas liberadas de forma eficiente, reduzindo o desperdício de horários e diminuindo a sobrecarga da equipe de atendimento, ao mesmo tempo que melhora os índices de satisfação dos seus pacientes.</span>
         </div>
       </section>
-      <section id="system">
+      <section id="crm">
         <div class="title">
           <h2>Nosso Sistema</h2>
           <div class="divider"></div>
-          <span>Oferecemos uma plataforma web completa</span>
+          <span>Te oferecemos uma plataforma web completa, para você gerenciar, cadastrar e medir a sua fila de pacientes, com:</span>
         </div>
 
         <div class="login-system">
           <div class="presentation-system">
             <p>Login integrado com o seu <span class="gradient">CRM</span> </p>
 
-            <img src="./assets/images/system/screen.png" alt="Tela em funcionamento da aplicação">
+            <img src="./assets/images/crm/screen.png" alt="Tela em funcionamento da aplicação">
+            <div class="crms">
+              <div class="crm">
+                <img src="./assets/images/crm/evertrack.png" alt="Logo do Evertrack CRM">
+              </div>
+              <div class="crm">
+                <img src="./assets/images/crm/oracle.png" alt="Logo do Oracle CRM">
+              </div>
+              <div class="crm">
+                <img src="./assets/images/crm/rd-station.png" alt="Logo do RD Station CRM">
+              </div>
+            </div>
             <p>Ou conecte-se aos CRMs mais utilizados do mercado, sem complicações</p>
           </div>
 
           <div class="divider"></div>
 
-          <div class="crms">
-            <div class="crm">
-              <img src="./assets/images/system/evertrack.png" alt="Logo do Evertrack CRM">
-            </div>
-            <div class="crm">
-              <img src="./assets/images/system/oracle.png" alt="Logo do Oracle CRM">
-            </div>
-            <div class="crm">
-              <img src="./assets/images/system/rd-station.png" alt="Logo do RD Station CRM">
-            </div>
+          <div class="presentation-system">
+            <p>API Restful documentada com <span class="gradient">SWAGGER, para acelerar a sua integração</span></p>
+
+            <img src="./assets/images/crm/screen-swagger.png" alt="Tela do Swagger da Agendify">
           </div>
+
         </div>
       </section>
     </main>

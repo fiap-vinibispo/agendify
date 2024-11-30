@@ -1,66 +1,74 @@
-section#system {
+section#crm {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-section#system .title {
+section#crm .title {
   max-width: 1538px;
   width: 80%;
 }
-section#system .title h2 {
+section#crm .title h2 {
   font-size: 36px;
   font-weight: bold;
   color: var(--purple-secondary);
   line-height: 200%;
 }
 
-section#system .title span {
+section#crm .title span {
   font-weight: bold;
   font-size: 24px;
+  width: 100%;
 }
 
-section#system .title .divider {
+section#crm .title .divider {
   width: 100%;
   background: linear-gradient(to right, var(--purple-divider), var(--pink-divider));
   height: 5px;
   margin-bottom: 24px;
 }
 
-section#system .login-system {
+section#crm .login-system {
   width: 80%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
+  flex-flow: row nowrap;
 }
 
 
-section#system .login-system .presentation-system {
-  max-width: 667px;
+section#crm .login-system .presentation-system {
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
-section#system .login-system .presentation-system p {
-  align-self: flex-start;
-  font-weight: bold;
+section#crm .login-system .presentation-system p {
+  font-weight: normal;
   font-size: 24px;
+  text-align: left;
+  padding-left: 20px;
 }
 
-section#system .login-system img {
+section#crm .login-system .presentation-system p:nth-of-type(2) {
+  align-self: center;
+  text-align: center;
+}
+
+section#crm .login-system img {
   max-width: 600px;
   width: 100%;
 }
 
-section#system .login-system .divider {
+section#crm .login-system .divider {
   height: 600px;
-  width: 1px;
+  min-width: 1px;
   background: linear-gradient(to right, var(--purple-divider), var(--pink-divider));
 }
 
-section#system .login-system .gradient {
+section#crm .login-system .gradient {
   background-image: -moz-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
   background-image: -webkit-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
   background-image: linear-gradient(to right, var(--purple-divider), var(--pink-gradient-text));
@@ -68,10 +76,13 @@ section#system .login-system .gradient {
   color: transparent;
 }
 
-section#system .crms {
+section#crm .crms {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 16px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-end;
-  gap: 30px;
+  gap: 60px;
 }
 
