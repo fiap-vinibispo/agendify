@@ -62,18 +62,11 @@ section#home article .title h3 {
   color: var(--purple-secondary);
 }
 
-section#home article .title .gradient {
-  background-image: -moz-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
-  background-image: -webkit-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
-  background-image: linear-gradient(to right, var(--purple-divider), var(--pink-gradient-text));
-  background-clip: text;
-  color: transparent;
-}
 
 section#home article .simple-gallery {
   margin-top: 125px;
   width: 100%;
-  background: #000;
+  background: var(--black);
   height: 550px;
   display: flex;
   flex-direction: column;

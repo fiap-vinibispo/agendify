@@ -1,0 +1,7 @@
+.gradient {
+  background-image: -moz-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
+  background-image: -webkit-linear-gradient(to right, var(--purple-divider), var(--pink-divider));
+  background-image: linear-gradient(to right, var(--purple-divider), var(--pink-gradient-text));
+  background-clip: text;
+  color: transparent;
+}
