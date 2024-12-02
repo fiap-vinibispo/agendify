@@ -6,6 +6,7 @@ form.addEventListener("submit", (e) => {
     const inputs = form.querySelectorAll("input:invalid")
     inputs.forEach(input => {
       const validityState = input.validity
+      console.log(validityState, input.parentElement.firstElementChild.textContent)
       const label = input.parentElement.firstElementChild
       label.classList.add("error")
       const labelText = label.textContent
@@ -21,4 +22,13 @@ form.addEventListener("submit", (e) => {
   }
 
   alert("Obrigado por se cadastrar, em breve você receberá mais contato da nossa equipe no seu e-mail")
+})
+
+const inputs = form.querySelectorAll("section#registration form input")
+inputs.forEach(input => {
+  input.addEventListener("input", () => {
+    input.setCustomValidity("")
+    input.classList.remove("error")
+    input.parentElement.firstElementChild.classList.remove("error")
+  })
 })
