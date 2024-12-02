@@ -24,19 +24,9 @@ O **Agendify** foi projetado para facilitar a gestão de agendamentos em diverso
 
 ---
 
-## Funcionalidades do Demo
+## Pitch do produto
 
-1. **Lista de Agendamentos**:
-   - Exibição de pacientes/clientes com informações como nome, posição na fila, status e data de requisição.
-   - Rolagem habilitada para facilitar a navegação em grandes volumes de dados.
-
-2. **Busca e Filtro**:
-   - Permite buscar registros por nome ou ID.
-   - Atualização dinâmica da tabela conforme os critérios de busca.
-
-3. **Visualização de Detalhes**:
-   - Ao selecionar um registro, informações adicionais como CPF, data de nascimento, e histórico de consultas são exibidas.
-   - Histórico detalhado com datas, nomes de consultas e motivos.
+https://youtube.com/shorts/8_TLHBMDPG4?feature=share
 
 ---
 
