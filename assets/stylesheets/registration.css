@@ -33,6 +33,7 @@ section#registration .form-container {
 
 section#registration .form-container h3 {
   font-size: 24px;
+  margin-bottom: 36px;
 }
 
 section#registration .form-container form {
@@ -54,9 +55,9 @@ section#registration .form-container form .inner-form {
 
 section#registration .form-container form .input-group {
   color: var(--white);
+  padding-top: 24px;
   display: flex;
   align-items: center;
-  justify-content: center;
   font-size: 24px;
   & input {
     background: #252525;
@@ -68,7 +69,7 @@ section#registration .form-container form .input-group {
     border-left-color: var(--white);
     padding: 6px 10px;
     flex: 1;
-    max-width: 611px;
+    width: 611px;
     color: var(--white);
     font-size: 24px;
     &.error {

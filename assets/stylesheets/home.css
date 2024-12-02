@@ -84,6 +84,7 @@ section#home article .simple-gallery .divider {
 section#home article .simple-gallery .images {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 32px;
   padding-left: 28px;
   padding-right: 28px;

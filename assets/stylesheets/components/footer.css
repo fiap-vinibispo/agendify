@@ -8,6 +8,7 @@ footer.footer {
   align-items: center;
   justify-content: space-between;
   color: var(--white);
+  position: absolute;
   z-index: 999;
 }
 

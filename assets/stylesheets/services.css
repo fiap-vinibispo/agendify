@@ -11,12 +11,10 @@ section#services .title {
   max-width: 1538px;
   width: 1166px;
   display: flex;
-  padding-top: 48px;
-  padding-bottom: 24px;
-  align-items: center;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: center;
   height: 117px;
+  grid-gap: 24px;
 }
 
 section#services .title .divider {
@@ -36,7 +34,7 @@ section#services .cards {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 100px;
+  padding: 36px 100px 100px 36px;
   gap: 32px;
 }
 
